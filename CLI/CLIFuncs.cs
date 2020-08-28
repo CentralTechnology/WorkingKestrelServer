@@ -65,7 +65,7 @@ namespace CLI
 
             using (var aesAlg = Aes.Create())
             {
-                using (var decryptor = aesAlg.CreateDecryptor(key, iv))
+                using (var decryptor = aesAlg.CreateDecryptor(key, iv))//
                 {
                     string result;
                     using (var msDecrypt = new MemoryStream(cipher))
