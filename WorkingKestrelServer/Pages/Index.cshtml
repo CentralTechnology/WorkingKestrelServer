@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <form method="post">
+         Run CLI Method:   <button type="submit" asp-page-handler="CallCLI">CLI</button>
+        </form>
+    </div>

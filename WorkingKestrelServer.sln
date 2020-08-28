@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingKestrelServer", "WorkingKestrelServer\WorkingKestrelServer.csproj", "{CCB20E0D-DBB2-4FAD-BC78-202B116F81F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI", "CLI\CLI.csproj", "{C379AAF9-2E5A-4DEE-8567-5F64983EB0D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB20E0D-DBB2-4FAD-BC78-202B116F81F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB20E0D-DBB2-4FAD-BC78-202B116F81F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB20E0D-DBB2-4FAD-BC78-202B116F81F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB20E0D-DBB2-4FAD-BC78-202B116F81F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C379AAF9-2E5A-4DEE-8567-5F64983EB0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C379AAF9-2E5A-4DEE-8567-5F64983EB0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C379AAF9-2E5A-4DEE-8567-5F64983EB0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C379AAF9-2E5A-4DEE-8567-5F64983EB0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D27CAF5-41B8-4424-8A71-0A80A2F5F837}
+	EndGlobalSection
+EndGlobal
